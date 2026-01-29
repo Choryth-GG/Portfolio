@@ -90,7 +90,7 @@ nav a:hover {
 /* PROJECTS */
 .project {
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .project a {
@@ -127,8 +127,7 @@ footer {
 }
 /* ALIGNEMENT DES PROJETS */
 .projects-grid {
-    display: flex;
-    justify-content: center;
-    gap: 40px; /* espace entre projets */
-    flex-wrap: wrap; /* passe en colonne sur petit écran */
+     display: flex;
+    flex-direction: column;   /* aligne verticalement */
+    align-items: center;      /* centre horizontalement */
 }
