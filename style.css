@@ -125,3 +125,10 @@ footer {
     padding: 2rem;
     margin-top: 3rem;
 }
+/* ALIGNEMENT DES PROJETS */
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* espace entre projets */
+    flex-wrap: wrap; /* passe en colonne sur petit écran */
+}
