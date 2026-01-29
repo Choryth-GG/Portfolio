@@ -4,124 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        nav {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 2rem;
-        }
-        
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        nav a:hover {
-            color: #3498db;
-        }
-        
-        .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-            padding: 8rem 2rem;
-        }
-        
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-        
-        .btn {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 0.8rem 2rem;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        
-        .btn:hover {
-            background: #2980b9;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 4rem 2rem;
-        }
-        
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <nav>
-            <h2>Portfolio</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="hero">
-        <h1>Mon Portfolio</h1>
-        <p>Etudiant en Réseaux et Télécommunications</p>
-    </section>
-    
-    <section id="projects" class="container">
-        <h2>Featured Projects</h2>
-        <p style="text-align: center;"><a href="sae_14.html" style="text-decoration: none; color: black;"><img src="./images/Projet_1.jpg" alt="View Project 1"style="border: 3px solid black; width: 200px; border-radius: 10px;"><br><span style="font-weight: bold;">Projet 1</span></a></p>
 
-        <p><a href="sae_15.html">View Project 2</a></p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2026. Ryan Gavard Gongallud - Étudiant en Réseaux et Télécommunications.</p>
-    </footer>
+    <!-- Lien vers le CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>Portfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Mon Portfolio</h1>
+    <p>Etudiant en Réseaux et Télécommunications</p>
+</section>
+
+<section id="projects" class="container">
+    <h2>Featured Projects</h2>
+
+    <div class="project">
+        <a href="sae_14.html">
+            <img src="./images/Projet_1.jpg" alt="Project 1">
+            <span><strong>Projet 1</strong></span>
+        </a>
+    </div>
+
+    <div class="project">
+        <a href="sae_15.html">
+            <span><strong>Projet 2</strong></span>
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026. Ryan Gavard Gongallud - Étudiant en Réseaux et Télécommunications.</p>
+</footer>
+
 </body>
 </html>
