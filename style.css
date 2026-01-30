@@ -172,4 +172,13 @@ footer {
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
+.image-caption {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+}
+
+
 
